@@ -1,0 +1,1 @@
+Debug/main.c.o Debug/SML_exe.c.o Debug/Simpletron_UI.c.o   
