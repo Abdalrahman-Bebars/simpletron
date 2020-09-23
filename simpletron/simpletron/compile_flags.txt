@@ -1,5 +1,5 @@
 -IC:\Program
--IC:\Users\user\Desktop\cat project\simpletron\simpletron
+-IC:\Users\user\Desktop\simpletron\simpletron
 -IC:\Program Files (x86)\CodeBlocks\MinGW\lib\gcc\mingw32\5.1.0\include\c++
 -IC:\Program Files (x86)\CodeBlocks\MinGW\lib\gcc\mingw32\5.1.0\include\c++\mingw32
 -IC:\Program Files (x86)\CodeBlocks\MinGW\lib\gcc\mingw32\5.1.0\include\c++\backward

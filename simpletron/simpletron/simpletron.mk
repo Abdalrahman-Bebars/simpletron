@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=simpletron
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/user/Desktop/cat project/simpletron"
-ProjectPath            :="C:/Users/user/Desktop/cat project/simpletron/simpletron"
+WorkspacePath          :=C:/Users/user/Desktop/simpletron
+ProjectPath            :=C:/Users/user/Desktop/simpletron/simpletron
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=user
-Date                   :=21/09/2020
+Date                   :=24/09/2020
 CodeLitePath           :=D:/CodeLite
 LinkerName             :="C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe"
 SharedObjectLinkerName :="C:/Program Files (x86)/CodeBlocks/MinGW/bin/g++.exe" -shared -fPIC
@@ -95,19 +95,19 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
-	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/cat project/simpletron/simpletron/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/simpletron/simpletron/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
 
 $(IntermediateDirectory)/SML_exe.c$(ObjectSuffix): SML_exe.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/SML_exe.c$(ObjectSuffix) -MF$(IntermediateDirectory)/SML_exe.c$(DependSuffix) -MM SML_exe.c
-	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/cat project/simpletron/simpletron/SML_exe.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/SML_exe.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/simpletron/simpletron/SML_exe.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/SML_exe.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/SML_exe.c$(PreprocessSuffix): SML_exe.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/SML_exe.c$(PreprocessSuffix) SML_exe.c
 
 $(IntermediateDirectory)/Simpletron_UI.c$(ObjectSuffix): Simpletron_UI.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Simpletron_UI.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Simpletron_UI.c$(DependSuffix) -MM Simpletron_UI.c
-	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/cat project/simpletron/simpletron/Simpletron_UI.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Simpletron_UI.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/user/Desktop/simpletron/simpletron/Simpletron_UI.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Simpletron_UI.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Simpletron_UI.c$(PreprocessSuffix): Simpletron_UI.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Simpletron_UI.c$(PreprocessSuffix) Simpletron_UI.c
 

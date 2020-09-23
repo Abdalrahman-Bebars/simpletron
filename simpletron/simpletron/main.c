@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include "Simpletron_UI.h"
 
 int main()
 {	
-	printf("hh");
-	//RunProgram();
+	Run_Program();
+	
 	return 0;
 }
